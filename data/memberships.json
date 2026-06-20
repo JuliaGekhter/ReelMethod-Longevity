@@ -1,0 +1,25 @@
+{
+  "plans": [
+    { "source": "Original", "name": "VIP Aesthetic Elite", "price": 749, "recurrence": "Monthly", "discount": null, "annualizedPrice": 8988, "benefits": "Botox (40u) monthly, full facial, IV therapy, 1 Morpheus Mini every 2 months" },
+    { "source": "Original", "name": "VIP Wellness Platinum", "price": 799, "recurrence": "Monthly", "discount": null, "annualizedPrice": 9588, "benefits": "Tirzepatide, BHRT, IV therapy, consult, labs, priority scheduling" },
+    { "source": "Original", "name": "VIP All-Inclusive", "price": 999, "recurrence": "Monthly", "discount": null, "annualizedPrice": 11988, "benefits": "All from Total Transformation + 1 Morpheus8 Premium per month + extras" },
+    { "source": "Original", "name": "Essential Wellness", "price": 114, "recurrence": "Monthly", "discount": null, "annualizedPrice": 1368, "benefits": "1 Lipo or B12 shot, Tanita scan, lifestyle consult (with basic lab)" },
+    { "source": "Original", "name": "Hormone Optimization", "price": 299, "recurrence": "Monthly", "discount": null, "annualizedPrice": 3588, "benefits": "TRT or BHRT cream/injection, labs, consults" },
+    { "source": "Original", "name": "Weight Loss & Peptide Plan", "price": 399, "recurrence": "Monthly", "discount": null, "annualizedPrice": 4788, "benefits": "Tirzepatide or Sermorelin, supplies, labs" },
+    { "source": "Original", "name": "Aesthetic Glow Plan", "price": 349, "recurrence": "Monthly", "discount": null, "annualizedPrice": 4188, "benefits": "Botox (20 units) OR signature facial" },
+    { "source": "Original", "name": "Total Transformation Plan", "price": 549, "recurrence": "Monthly", "discount": null, "annualizedPrice": 6588, "benefits": "Morpheus8, peptide, Botox, Lipo, labs, facial (>$1200 value)" },
+    { "source": "Original", "name": "Peptide Performance Plan", "price": 399, "recurrence": "Monthly", "discount": null, "annualizedPrice": 4788, "benefits": "Tirzepatide/Sermorelin Rx, injections, consult" },
+    { "source": "Original", "name": "Total Transformation Bundle", "price": 649, "recurrence": "Monthly", "discount": null, "annualizedPrice": 7788, "benefits": "Peptide Rx + Botox + Lipo + labs + facial" },
+    { "source": "Original", "name": "Youth & Longevity Club", "price": 749, "recurrence": "Quarterly", "discount": null, "annualizedPrice": 2996, "benefits": "Sermorelin, skin treatment, supplement credit" },
+    { "source": "Original", "name": "Couples Vitality Membership", "price": 998, "recurrence": "Monthly", "discount": null, "annualizedPrice": 11976, "benefits": "2x BHRT + injections + labs" },
+    { "source": "Original", "name": "Supplement Subscription", "price": 149, "recurrence": "Monthly", "discount": null, "annualizedPrice": 1788, "benefits": "3 supplements shipped monthly" },
+    { "source": "New (6/19)", "name": "Mental Health Membership", "price": 249, "recurrence": null, "discount": null, "annualizedPrice": null, "benefits": "" },
+    { "source": "New (6/19)", "name": "Total Wellness Membership", "price": 499, "recurrence": "Monthly", "discount": null, "annualizedPrice": 5988, "benefits": "Hormones + GLP-1 + IV Therapy + Labs (2x/yr)" },
+    { "source": "New (6/19)", "name": "Beauty & Boost Bundle", "price": 349, "recurrence": "Monthly", "discount": null, "annualizedPrice": 4188, "benefits": "Morpheus8 (quarterly), Botox (quarterly), IV Therapy (monthly)" },
+    { "source": "New (6/19)", "name": "Longevity Essentials", "price": 299, "recurrence": "Monthly", "discount": null, "annualizedPrice": 3588, "benefits": "Labs (2x/yr), HRT or Weight Loss, Monthly Check-in" },
+    { "source": "New (6/19)", "name": "Mental & Physical Reset Plan", "price": 399, "recurrence": "Monthly", "discount": null, "annualizedPrice": 4788, "benefits": "Counseling (2x/mo), Semaglutide, IV Therapy" },
+    { "source": "New (6/19)", "name": "Shape the Wave Monthly", "price": 495, "recurrence": "Monthly", "discount": null, "annualizedPrice": 5940, "benefits": "Personalized Coaching Support twice a month, Labs quarterly and service discounts" },
+    { "source": "New (6/19)", "name": "Shape the Wave Quarterly", "price": 393, "recurrence": "Quarterly", "discount": "5%", "annualizedPrice": 1410.75, "benefits": "Personalized Coaching Support twice a month, Labs quarterly and service discounts" },
+    { "source": "New (6/19)", "name": "Shape the Wave Annual", "price": 1495, "recurrence": "Annual", "discount": "10%", "annualizedPrice": 5940, "benefits": "Personalized Coaching Support twice a month, Labs quarterly and service discounts" }
+  ]
+}

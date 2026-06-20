@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shape The Wave Longevity™ — Membership Plans</title>
+  <meta name="description" content="Browse and compare Shape The Wave Longevity™ membership plans. Optimize health. Align habits. Live longer, better." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <span class="brand-mark">〜</span>
+      <div class="brand-text">
+        <h1>Shape The Wave Longevity<span class="tm">™</span></h1>
+        <p class="tagline">Optimize health. Align habits. Live longer, better.</p>
+      </div>
+    </div>
+    <p class="framework">Reflect · Envision · Execute · Learn · Align</p>
+  </header>
+
+  <main>
+    <section class="controls" aria-label="Filter and sort memberships">
+      <div class="control search-control">
+        <label for="search">Search</label>
+        <input type="search" id="search" placeholder="Plan name or benefit (e.g. peptide, Botox, labs)…" autocomplete="off" />
+      </div>
+
+      <div class="control">
+        <label for="recurrence">Billing</label>
+        <select id="recurrence">
+          <option value="">All</option>
+          <option value="Monthly">Monthly</option>
+          <option value="Quarterly">Quarterly</option>
+          <option value="Annual">Annual</option>
+        </select>
+      </div>
+
+      <div class="control">
+        <label for="source">Collection</label>
+        <select id="source">
+          <option value="">All</option>
+          <option value="Original">Original</option>
+          <option value="New (6/19)">New</option>
+        </select>
+      </div>
+
+      <div class="control">
+        <label for="sort">Sort by</label>
+        <select id="sort">
+          <option value="price-asc">Price: low to high</option>
+          <option value="price-desc">Price: high to low</option>
+          <option value="name-asc">Name: A to Z</option>
+        </select>
+      </div>
+
+      <div class="control price-control">
+        <label for="maxPrice">Max price: <output id="maxPriceOut">$1,495</output></label>
+        <input type="range" id="maxPrice" min="0" max="1495" step="1" value="1495" />
+      </div>
+    </section>
+
+    <p class="summary" id="summary" aria-live="polite"></p>
+
+    <section id="grid" class="grid" aria-label="Membership plans"></section>
+
+    <p id="empty" class="empty" hidden>No plans match your filters. Try widening your search.</p>
+  </main>
+
+  <footer class="site-footer">
+    <p><strong>Shape The Wave Longevity™</strong> · Powered by the REEL™ Align Method &amp; ReelVerse AI™</p>
+    <p class="fine">Pricing for reference only. Benefits subject to consultation and availability.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
