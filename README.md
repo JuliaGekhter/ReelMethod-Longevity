@@ -63,7 +63,17 @@ When served over HTTP the app reads this file directly. If you also want the
 direct-open (`file://`) path to reflect changes, mirror them into the
 `FALLBACK_PLANS` array at the top of `app.js`.
 
+## Deployment (GitHub Pages)
+
+The site deploys automatically to **GitHub Pages** via
+[`.github/workflows/deploy-pages.yml`](./.github/workflows/deploy-pages.yml). The
+workflow uploads the repository root as-is (no build step) and publishes it on every
+push to `main` (and can be run manually via *Actions → Run workflow*).
+
+First-time setup: in **Settings → Pages → Build and deployment**, set **Source** to
+**GitHub Actions** if it isn't enabled automatically. The published URL appears in the
+Pages settings and in each successful workflow run.
+
 ## Notes
 - Pricing is for reference only; benefits are subject to consultation and availability.
-- 21 plans total: 13 original + 8 added 6/19. *Mental Health Membership* intentionally
-  shows placeholder benefits / cadence pending finalization.
+- 21 plans total: 13 original + 8 added 6/19.
