@@ -3,73 +3,149 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Shape The Wave Longevity™ — Membership Plans</title>
-  <meta name="description" content="Browse and compare Shape The Wave Longevity™ membership plans. Optimize health. Align habits. Live longer, better." />
+  <title>Shape The Wave Longevity™ — Optimize health. Align habits. Live longer, better.</title>
+  <meta name="description" content="Shape The Wave Longevity™ — powered by the REEL™ Align Method and ReelVerse AI™. Optimize health. Align habits. Live longer, better." />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="brand">
-      <span class="brand-mark">〜</span>
-      <div class="brand-text">
-        <h1>Shape The Wave Longevity<span class="tm">™</span></h1>
-        <p class="tagline">Optimize health. Align habits. Live longer, better.</p>
-      </div>
+  <!-- Sticky nav -->
+  <nav class="nav">
+    <a class="nav-brand" href="#top"><span class="brand-mark">〜</span> Shape The Wave Longevity<span class="tm">™</span></a>
+    <div class="nav-links">
+      <a href="#framework">Method</a>
+      <a href="#hierarchy">Hierarchy</a>
+      <a href="#ecosystem">Ecosystem</a>
+      <a href="#memberships">Memberships</a>
     </div>
-    <p class="framework">Reflect · Envision · Execute · Learn · Align</p>
+  </nav>
+
+  <!-- Hero -->
+  <header id="top" class="hero">
+    <span class="brand-mark hero-mark">〜</span>
+    <h1>Shape The Wave Longevity<span class="tm">™</span></h1>
+    <p class="tagline">Optimize health. Align habits. Live longer, better.</p>
+    <p class="hero-sub">A complete transformation system — powered by the REEL™ Align Method and ReelVerse AI™.</p>
+    <a class="cta" href="#memberships">Explore Memberships ↓</a>
+    <p class="framework-strip">Reflect · Envision · Execute · Learn · Align</p>
   </header>
 
   <main>
-    <section class="controls" aria-label="Filter and sort memberships">
-      <div class="control search-control">
-        <label for="search">Search</label>
-        <input type="search" id="search" placeholder="Plan name or benefit (e.g. peptide, Botox, labs)…" autocomplete="off" />
+    <!-- REEL Framework -->
+    <section id="framework" class="section">
+      <div class="section-head">
+        <h2>The REEL™ Align Method</h2>
+        <p class="section-sub">Build habits. Break patterns. Live aligned.</p>
       </div>
-
-      <div class="control">
-        <label for="recurrence">Billing</label>
-        <select id="recurrence">
-          <option value="">All</option>
-          <option value="Monthly">Monthly</option>
-          <option value="Quarterly">Quarterly</option>
-          <option value="Annual">Annual</option>
-        </select>
-      </div>
-
-      <div class="control">
-        <label for="source">Collection</label>
-        <select id="source">
-          <option value="">All</option>
-          <option value="Original">Original</option>
-          <option value="New (6/19)">New</option>
-        </select>
-      </div>
-
-      <div class="control">
-        <label for="sort">Sort by</label>
-        <select id="sort">
-          <option value="price-asc">Price: low to high</option>
-          <option value="price-desc">Price: high to low</option>
-          <option value="name-asc">Name: A to Z</option>
-        </select>
-      </div>
-
-      <div class="control price-control">
-        <label for="maxPrice">Max price: <output id="maxPriceOut">$1,495</output></label>
-        <input type="range" id="maxPrice" min="0" max="1495" step="1" value="1495" />
-      </div>
+      <ol class="framework-grid">
+        <li class="step"><span class="step-letter">R</span><h3>Reflect</h3><p>See yourself clearly — patterns, triggers, and wins.</p></li>
+        <li class="step"><span class="step-letter">E</span><h3>Envision</h3><p>Define the longer, better life you're aiming for.</p></li>
+        <li class="step"><span class="step-letter">E</span><h3>Execute</h3><p>Take aligned action with the right support.</p></li>
+        <li class="step"><span class="step-letter">L</span><h3>Learn</h3><p>Measure, adjust, and compound what works.</p></li>
+        <li class="step"><span class="step-letter">A</span><h3>Align</h3><p>Lock habits to your values and keep the wave moving.</p></li>
+      </ol>
     </section>
 
-    <p class="summary" id="summary" aria-live="polite"></p>
+    <!-- Locked Hierarchy -->
+    <section id="hierarchy" class="section">
+      <div class="section-head">
+        <h2>The Locked Hierarchy</h2>
+        <p class="section-sub">Each layer powers the next — in order.</p>
+      </div>
+      <ol class="hierarchy">
+        <li class="tier tier-1">
+          <span class="tier-index">01</span>
+          <div><h3>Shape The Wave Longevity<span class="tm">™</span></h3><p>Optimize health. Align habits. Live longer, better.</p></div>
+        </li>
+        <li class="tier tier-2">
+          <span class="tier-index">02</span>
+          <div><h3>REEL™ Align Method<span class="tm">™</span></h3><p>Build habits. Break patterns. Live aligned.</p></div>
+        </li>
+        <li class="tier tier-3">
+          <span class="tier-index">03</span>
+          <div><h3>ReelVerse AI<span class="tm">™</span></h3><p>Behavior change powered by intelligence.</p></div>
+        </li>
+        <li class="tier tier-4">
+          <span class="tier-index">04</span>
+          <div><h3>ReelVerse OS<span class="tm">™</span></h3><p>Your personal transformation operating system.</p></div>
+        </li>
+      </ol>
+    </section>
 
-    <section id="grid" class="grid" aria-label="Membership plans"></section>
+    <!-- Ecosystem -->
+    <section id="ecosystem" class="section">
+      <div class="section-head">
+        <h2>The ReelVerse Ecosystem</h2>
+        <p class="section-sub">Five tools, one operating system for change.</p>
+      </div>
+      <div class="ecosystem-grid">
+        <article class="eco-card"><span class="eco-icon">🧭</span><h3>ReelVerse Coach<span class="tm">™</span></h3><p>AI guidance</p></article>
+        <article class="eco-card"><span class="eco-icon">🪞</span><h3>ReelVerse Mirror<span class="tm">™</span></h3><p>Reflection &amp; journaling</p></article>
+        <article class="eco-card"><span class="eco-icon">➤</span><h3>ReelVerse Compass<span class="tm">™</span></h3><p>Goals, values &amp; direction</p></article>
+        <article class="eco-card"><span class="eco-icon">📈</span><h3>ReelVerse Momentum<span class="tm">™</span></h3><p>Habits &amp; progress</p></article>
+        <article class="eco-card"><span class="eco-icon">🎓</span><h3>ReelVerse Academy<span class="tm">™</span></h3><p>Courses &amp; certification</p></article>
+      </div>
+      <article class="credential">
+        <span class="eco-icon">🏅</span>
+        <div>
+          <h3>Certified REEL Method Practitioner<span class="tm">™</span></h3>
+          <p>The professional credential for coaches and clinicians delivering the REEL™ Align Method.</p>
+        </div>
+      </article>
+    </section>
 
-    <p id="empty" class="empty" hidden>No plans match your filters. Try widening your search.</p>
+    <!-- Memberships -->
+    <section id="memberships" class="section">
+      <div class="section-head">
+        <h2>Membership Plans</h2>
+        <p class="section-sub">Find the level of support that matches your goals.</p>
+      </div>
+
+      <div class="controls" aria-label="Filter and sort memberships">
+        <div class="control search-control">
+          <label for="search">Search</label>
+          <input type="search" id="search" placeholder="Plan name or benefit (e.g. peptide, Botox, labs)…" autocomplete="off" />
+        </div>
+        <div class="control">
+          <label for="recurrence">Billing</label>
+          <select id="recurrence">
+            <option value="">All</option>
+            <option value="Monthly">Monthly</option>
+            <option value="Quarterly">Quarterly</option>
+            <option value="Annual">Annual</option>
+          </select>
+        </div>
+        <div class="control">
+          <label for="source">Collection</label>
+          <select id="source">
+            <option value="">All</option>
+            <option value="Original">Original</option>
+            <option value="New (6/19)">New</option>
+          </select>
+        </div>
+        <div class="control">
+          <label for="sort">Sort by</label>
+          <select id="sort">
+            <option value="price-asc">Price: low to high</option>
+            <option value="price-desc">Price: high to low</option>
+            <option value="name-asc">Name: A to Z</option>
+          </select>
+        </div>
+        <div class="control price-control">
+          <label for="maxPrice">Max price: <output id="maxPriceOut">$1,495</output></label>
+          <input type="range" id="maxPrice" min="0" max="1495" step="1" value="1495" />
+        </div>
+      </div>
+
+      <p class="summary" id="summary" aria-live="polite"></p>
+      <div id="grid" class="grid" aria-label="Membership plans"></div>
+      <p id="empty" class="empty" hidden>No plans match your filters. Try widening your search.</p>
+    </section>
   </main>
 
   <footer class="site-footer">
-    <p><strong>Shape The Wave Longevity™</strong> · Powered by the REEL™ Align Method &amp; ReelVerse AI™</p>
-    <p class="fine">Pricing for reference only. Benefits subject to consultation and availability.</p>
+    <p class="footer-message">Optimize health. Align habits. Live longer, better.</p>
+    <p><strong>Shape The Wave Longevity™</strong> · REEL™ Align Method™ · ReelVerse AI™ · ReelVerse OS™</p>
+    <p class="fine">Pricing for reference only. Benefits subject to consultation and availability. All marks ™ their respective holder.</p>
   </footer>
 
   <script src="app.js"></script>

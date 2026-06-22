@@ -18,7 +18,7 @@ const FALLBACK_PLANS = [
   { source: "Original", name: "Youth & Longevity Club", price: 749, recurrence: "Quarterly", discount: null, annualizedPrice: 2996, benefits: "Sermorelin, skin treatment, supplement credit" },
   { source: "Original", name: "Couples Vitality Membership", price: 998, recurrence: "Monthly", discount: null, annualizedPrice: 11976, benefits: "2x BHRT + injections + labs" },
   { source: "Original", name: "Supplement Subscription", price: 149, recurrence: "Monthly", discount: null, annualizedPrice: 1788, benefits: "3 supplements shipped monthly" },
-  { source: "New (6/19)", name: "Mental Health Membership", price: 249, recurrence: null, discount: null, annualizedPrice: null, benefits: "" },
+  { source: "New (6/19)", name: "Mental Health Membership", price: 249, recurrence: "Monthly", discount: null, annualizedPrice: 2988, benefits: "Counseling/therapy (2x/mo), psychiatric consult, medication management" },
   { source: "New (6/19)", name: "Total Wellness Membership", price: 499, recurrence: "Monthly", discount: null, annualizedPrice: 5988, benefits: "Hormones + GLP-1 + IV Therapy + Labs (2x/yr)" },
   { source: "New (6/19)", name: "Beauty & Boost Bundle", price: 349, recurrence: "Monthly", discount: null, annualizedPrice: 4188, benefits: "Morpheus8 (quarterly), Botox (quarterly), IV Therapy (monthly)" },
   { source: "New (6/19)", name: "Longevity Essentials", price: 299, recurrence: "Monthly", discount: null, annualizedPrice: 3588, benefits: "Labs (2x/yr), HRT or Weight Loss, Monthly Check-in" },
@@ -51,8 +51,11 @@ function escapeHtml(str) {
   );
 }
 
+const FEATURED_PLAN = "Shape the Wave Monthly";
+
 function cardHtml(plan) {
   const isNew = plan.source && plan.source.startsWith("New");
+  const isFeatured = plan.name === FEATURED_PLAN;
   const cadence = plan.recurrence ? `/ ${plan.recurrence.toLowerCase()}` : "";
   const discount = plan.discount
     ? `<span class="discount">${escapeHtml(plan.discount)} off</span>`
@@ -66,7 +69,8 @@ function cardHtml(plan) {
       : "";
 
   return `
-    <article class="card">
+    <article class="card${isFeatured ? " featured" : ""}">
+      ${isFeatured ? `<span class="popular-tag">★ Most popular</span>` : ""}
       <div class="card-top">
         <h2>${escapeHtml(plan.name)}</h2>
         <span class="badge ${isNew ? "new" : ""}">${isNew ? "New" : "Original"}</span>
