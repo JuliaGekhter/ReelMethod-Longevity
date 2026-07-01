@@ -15,7 +15,23 @@ See [`BRAND.md`](./BRAND.md) for the canonical brand reference.
    Shape The Wave Longevity™ → REEL™ Align Method™ → ReelVerse AI™ → ReelVerse OS™.
 4. **The ReelVerse Ecosystem** — Coach, Mirror, Compass, Momentum, Academy, plus the
    **Certified REEL Method Practitioner™** credential.
-5. **Membership Plans** — searchable/filterable/sortable browser of all 21 plans.
+5. **Membership Plans** — searchable/filterable/sortable browser of all 21 plans,
+   with a **Compare** tool (select 2–3 plans → side-by-side comparison) and a
+   "Most popular" highlight.
+6. **What Members Say** — testimonials.
+7. **FAQ** — expandable common questions.
+8. **Get Started** — a contact form with client-side validation.
+
+## Features
+- **Light / dark theme toggle** in the nav (remembers your choice via `localStorage`,
+  defaults to your system preference).
+- **Plan compare** — pick plans, open a side-by-side table of price, billing,
+  annualized cost, discount, and benefits.
+- **Scroll-reveal animations** (respects `prefers-reduced-motion`).
+- **Contact form** — validates input, then opens the visitor's email client with a
+  pre-filled inquiry. There is no backend, so nothing is stored or transmitted by the
+  site itself. Update the destination address by editing `CONTACT_EMAIL` near the
+  contact section in `app.js` (currently a `hello@shapethewavelongevity.com` placeholder).
 
 ## Tech
 Plain static site — **HTML + CSS + vanilla JavaScript**. No build step, no

@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Shape The Wave Longevity™ — Optimize health. Align habits. Live longer, better.</title>
   <meta name="description" content="Shape The Wave Longevity™ — powered by the REEL™ Align Method and ReelVerse AI™. Optimize health. Align habits. Live longer, better." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E%E3%80%9C%3C/text%3E%3C/svg%3E" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -16,6 +17,11 @@
       <a href="#hierarchy">Hierarchy</a>
       <a href="#ecosystem">Ecosystem</a>
       <a href="#memberships">Memberships</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Get Started</a>
+      <button type="button" id="themeToggle" class="theme-toggle" aria-label="Toggle light and dark theme" aria-pressed="false" title="Toggle theme">
+        <span aria-hidden="true">🌙</span>
+      </button>
     </div>
   </nav>
 
@@ -25,13 +31,20 @@
     <h1>Shape The Wave Longevity<span class="tm">™</span></h1>
     <p class="tagline">Optimize health. Align habits. Live longer, better.</p>
     <p class="hero-sub">A complete transformation system — powered by the REEL™ Align Method and ReelVerse AI™.</p>
-    <a class="cta" href="#memberships">Explore Memberships ↓</a>
+    <div class="hero-ctas">
+      <a class="cta" href="#memberships">Explore Memberships ↓</a>
+      <a class="cta cta-ghost" href="#contact">Get Started</a>
+    </div>
     <p class="framework-strip">Reflect · Envision · Execute · Learn · Align</p>
+    <svg class="hero-wave" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+      <path d="M0,64 C240,112 480,16 720,48 C960,80 1200,120 1440,72 L1440,120 L0,120 Z" fill="currentColor" opacity="0.18" />
+      <path d="M0,80 C240,40 480,120 720,88 C960,56 1200,16 1440,56 L1440,120 L0,120 Z" fill="currentColor" opacity="0.10" />
+    </svg>
   </header>
 
   <main>
     <!-- REEL Framework -->
-    <section id="framework" class="section">
+    <section id="framework" class="section reveal">
       <div class="section-head">
         <h2>The REEL™ Align Method</h2>
         <p class="section-sub">Build habits. Break patterns. Live aligned.</p>
@@ -46,7 +59,7 @@
     </section>
 
     <!-- Locked Hierarchy -->
-    <section id="hierarchy" class="section">
+    <section id="hierarchy" class="section reveal">
       <div class="section-head">
         <h2>The Locked Hierarchy</h2>
         <p class="section-sub">Each layer powers the next — in order.</p>
@@ -72,7 +85,7 @@
     </section>
 
     <!-- Ecosystem -->
-    <section id="ecosystem" class="section">
+    <section id="ecosystem" class="section reveal">
       <div class="section-head">
         <h2>The ReelVerse Ecosystem</h2>
         <p class="section-sub">Five tools, one operating system for change.</p>
@@ -94,7 +107,7 @@
     </section>
 
     <!-- Memberships -->
-    <section id="memberships" class="section">
+    <section id="memberships" class="section reveal">
       <div class="section-head">
         <h2>Membership Plans</h2>
         <p class="section-sub">Find the level of support that matches your goals.</p>
@@ -140,7 +153,111 @@
       <div id="grid" class="grid" aria-label="Membership plans"></div>
       <p id="empty" class="empty" hidden>No plans match your filters. Try widening your search.</p>
     </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="section reveal">
+      <div class="section-head">
+        <h2>What Members Say</h2>
+        <p class="section-sub">Real momentum, in their words.</p>
+      </div>
+      <div class="testimonial-grid">
+        <figure class="quote">
+          <blockquote>"The REEL method finally made my habits stick. Six months in and I feel a decade younger."</blockquote>
+          <figcaption><span class="avatar" aria-hidden="true">DM</span> Dana M. · Member since 2025</figcaption>
+        </figure>
+        <figure class="quote">
+          <blockquote>"Labs, coaching, and a plan that adjusts with me. It's the most supported I've ever felt."</blockquote>
+          <figcaption><span class="avatar" aria-hidden="true">RC</span> Raj C. · Wellness Platinum</figcaption>
+        </figure>
+        <figure class="quote">
+          <blockquote>"Being able to compare plans side by side made choosing painless. Worth every dollar."</blockquote>
+          <figcaption><span class="avatar" aria-hidden="true">SL</span> Sofia L. · Shape the Wave Annual</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section reveal">
+      <div class="section-head">
+        <h2>Frequently Asked Questions</h2>
+        <p class="section-sub">The essentials, answered.</p>
+      </div>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>How do I choose the right membership?</summary>
+          <p>Start from your goal — aesthetics, hormones, weight, or whole-person longevity — then use the filters and the <strong>Compare</strong> tool above to weigh price and benefits side by side. Our team confirms fit during your intake consult.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Can I change or cancel my plan?</summary>
+          <p>Yes. Memberships are flexible — you can upgrade, downgrade, or pause between billing cycles. Annual and quarterly plans carry their stated discount for the committed term.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What is the REEL™ Align Method?</summary>
+          <p>It's our five-step behavior-change framework — <em>Reflect · Envision · Execute · Learn · Align</em> — that turns clinical treatments into lasting habits, powered by ReelVerse AI™.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Are treatments and pricing guaranteed?</summary>
+          <p>Pricing shown is for reference. All treatments are subject to consultation, medical eligibility, and availability. Your care plan is personalized after intake.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- Get Started / Contact -->
+    <section id="contact" class="section reveal">
+      <div class="section-head">
+        <h2>Get Started</h2>
+        <p class="section-sub">Tell us your goals — we'll map your plan.</p>
+      </div>
+      <form id="contactForm" class="contact-form" novalidate>
+        <div class="field">
+          <label for="cName">Name</label>
+          <input type="text" id="cName" name="name" autocomplete="name" required />
+          <span class="error" data-for="cName"></span>
+        </div>
+        <div class="field">
+          <label for="cEmail">Email</label>
+          <input type="email" id="cEmail" name="email" autocomplete="email" required />
+          <span class="error" data-for="cEmail"></span>
+        </div>
+        <div class="field">
+          <label for="cPlan">Plan of interest</label>
+          <select id="cPlan" name="plan">
+            <option value="">No preference yet</option>
+          </select>
+        </div>
+        <div class="field field-wide">
+          <label for="cMessage">What are you hoping to achieve?</label>
+          <textarea id="cMessage" name="message" rows="4" required></textarea>
+          <span class="error" data-for="cMessage"></span>
+        </div>
+        <div class="field field-wide">
+          <button type="submit" class="cta">Send inquiry</button>
+          <p class="form-note" id="formNote" role="status" aria-live="polite">Opens your email app with the details pre-filled — no data is stored or sent anywhere automatically.</p>
+        </div>
+      </form>
+    </section>
   </main>
+
+  <!-- Compare tray -->
+  <div id="compareTray" class="compare-tray" hidden aria-live="polite">
+    <span class="compare-count" id="compareCount">0 selected</span>
+    <div class="compare-chips" id="compareChips"></div>
+    <div class="compare-actions">
+      <button type="button" id="compareClear" class="btn-ghost">Clear</button>
+      <button type="button" id="compareOpen" class="btn-solid">Compare</button>
+    </div>
+  </div>
+
+  <!-- Compare dialog -->
+  <div id="compareModal" class="compare-modal" hidden role="dialog" aria-modal="true" aria-labelledby="compareTitle">
+    <div class="compare-modal-inner">
+      <div class="compare-modal-head">
+        <h2 id="compareTitle">Compare plans</h2>
+        <button type="button" id="compareClose" class="modal-close" aria-label="Close comparison">✕</button>
+      </div>
+      <div class="compare-table-wrap" id="compareTableWrap"></div>
+    </div>
+  </div>
 
   <footer class="site-footer">
     <p class="footer-message">Optimize health. Align habits. Live longer, better.</p>
